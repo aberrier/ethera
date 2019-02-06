@@ -1,26 +1,7 @@
-# HAL-1 v1.2
-
-Client part of the HAL-1 (ex Surirobot) , a multi-users smart assistant.
-Works on Python 3.6
-
-## Installation under macOS using homebrew
-
-Install homebrew : https://brew.sh
-
-Install libs: `brew install python3 boost-python3 dlib espeak cmake mysql`
-
-Install required python3 modules: `pip3 install -r requirements.txt`
-
-Install the lastest version of python3 dlib:
-
-```bash
-git clone https://github.com/davisking/dlib.git
-cd dlib
-python3 setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA
-cd .. && rm -rf dlib
-```
-Create a symlink on libespeak.dylib :
-`cd /usr/local/lib/ && ln -s libespeak.dylib libespeak.so.1`
+# Ethera
+Ethera is the Surirobot's children.
+Like her father, she's destined to become a multi-users smart assistant but this time for Linux.
+Think of it as a Cortona equivalent in Linux.
 
 ## Installation under ubuntu
 
